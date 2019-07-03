@@ -59,7 +59,7 @@ $(document).ready(function () {
     });
 
 
-    $(".all-gems").on("click", function () {
+    $(".col-3").on("click", function () {
 
         if (score === targetNumber) {
             wins++;
